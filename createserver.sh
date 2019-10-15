@@ -8,4 +8,4 @@ sudo git config --global user.email "Default@Email.com"
 sudo git config --global user.name "Default Name"
 sudo ./Paper/paper jar
 sudo mv Paper/paperclip.jar paperclip.jar
-sudo screen -s "FastMCServer"
+sudo java -jar paperclip.jar
