@@ -1,4 +1,9 @@
-Installation:
+Installation on windows:
+Download or git clone the repositiory
+Run win_createserver.bat
+Run win_run.bat when needed to start server again.
+
+Installation on Linux:
 git clone this repo
 edit server.properties and any other config files
 run createserver.sh
@@ -10,7 +15,7 @@ What this does:
   Downloads latest paperclip.jar from https://papermc.io/downloads
   Then auto-runs server
 
-tips:
+Using Screen:
 Using screen is simple.
 On the next time you run your server, go into server directoy and type "screen -S "mcserver"
 This opens a new screen instance that can be reopened and closed without affecting the server
